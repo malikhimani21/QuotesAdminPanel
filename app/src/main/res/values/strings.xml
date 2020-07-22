@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QuotesAdminSide</string>
+
+
+    <string-array name="quotes_cat_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="quotes_cat">
+        <item>Success</item>
+        <item>Motivation</item>
+        <item>Inspiration</item>
+        <item>Life</item>
+        <item>Love</item>
+        <item>Failure</item>
+        <item>Happiness</item>
+        <item>Education</item>
+    </string-array>
+
+</resources>
