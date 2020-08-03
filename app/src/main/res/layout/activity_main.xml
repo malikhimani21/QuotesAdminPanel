@@ -8,11 +8,16 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-   <Button
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Insert Quotes"
-       android:onClick="openInsertQuotesActivity"
-       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openInsertQuotesActivity"
+        android:text="Insert Quotes" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openViewQuotesActivity"
+        android:text="View Quotes" />
 
 </LinearLayout>

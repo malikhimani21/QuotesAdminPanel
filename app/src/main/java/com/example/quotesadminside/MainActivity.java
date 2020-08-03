@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.quotesadminside.insertQuotes.InsertQuotesActivity;
+import com.example.quotesadminside.view.ShowAllQuotes;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,5 +24,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, InsertQuotesActivity.class);
         startActivity(intent);
 
+    }
+
+    public void openViewQuotesActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, ShowAllQuotes.class);
+        startActivity(intent);
     }
 }
